@@ -29,7 +29,7 @@ RUN \
   apk del $BUILD_PACKAGES
 
 # install multitor
-RUN	git clone https://github.com/trimstray/multitor && \
+RUN	git clone https://github.com/MarkinAlexander/multitor && \
 	cd multitor && \
 	./setup.sh install && \
 # create log folders
